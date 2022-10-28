@@ -1,3 +1,5 @@
+let listaContactos = []
+
 let Usuario1 = { 
     "id": 1,
     "nombres": "Gonzalo Fernando",
@@ -9,7 +11,7 @@ let Usuario1 = {
     }
 }
 
-let listaContactos = [Usuario1]
+let añadirUsuario = listaContactos.push(Usuario1);
 console.log(listaContactos)
 
 let Usuario2 = { 
@@ -41,3 +43,4 @@ console.log(listaContactos)
 
 let eliminacion = listaContactos.splice(1, 1)
 console.log(listaContactos)
+
